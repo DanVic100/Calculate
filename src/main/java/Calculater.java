@@ -39,6 +39,10 @@ public class Calculater {
                 result = increase(a,b);
                 System.out.format("Result of increase: %.4f%n",result);
                 break;
+
+            default:
+                System.out.println("No operation is provided");
+                break;
         }
 
 
